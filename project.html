@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Rafa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.4);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .typing {
+      font-size: 1.2em;
+      color: #00e676;
+      height: 30px;
+      margin-bottom: 40px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #00e676;
+      width: 0;
+      animation: typing 4s steps(30, end) forwards, blink 0.7s infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1em;
+      border: none;
+      border-radius: 25px;
+      background: #00e676;
+      color: #003300;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #00c853;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.ibb.co/6JpGpM1/avatar.png" alt="Foto Rafa" class="profile-img">
+  <h1>Halo, Aku Rafa 👋</h1>
+  <div class="typing">Sedang belajar agar tidak menjadi gila!</div>
+  <button onclick="alert('Terus belajar, Rafa! 🚀')">Support Aku!</button>
+
+  <footer>
+    <p>&copy; 2025 | Website by Rafa Alviano</p>
+  </footer>
+</body>
+</html>
