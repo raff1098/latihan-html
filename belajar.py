@@ -1,0 +1,1 @@
+print("Rafa belajar python dari nol")
